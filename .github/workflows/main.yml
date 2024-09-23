@@ -12,7 +12,7 @@ jobs:
   build: #user defined
     runs-on: ubuntu-latest
 
-     steps:
+    steps:
       - name: Checkout the code base
         uses: actions/checkout@v4
         
