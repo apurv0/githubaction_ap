@@ -8,9 +8,9 @@ on:
   branches:
     - main
 
- jobs:
-   build: #user defined
-     runs-on: ubuntu-latest
+jobs:
+  build: #user defined
+    runs-on: ubuntu-latest
 
      steps:
       - name: Checkout the code base
